@@ -13,27 +13,27 @@
 	},
 	"workflowApiVersion": "1.1",
 	"configurationArguments": {
-		"applicationExtensionKey": "<YOUR APPLICATION EXTENSION KEY HERE>",
+		"applicationExtensionKey": "00ed3f18-efc3-4a62-90db-0376556e3266",
 		"save": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/save",
+			"url": "https://customactivitysplit.herokuapp.com/activity/save",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "CdgLeyu3lPl7EmwpnOAVqd-02GZlo3iyVCjItsS1Tk0uTBoEcGTU6AOfWPBs2sKkHrWtTnAYEik4oczjGsdn_GD2rOrD71BvMYQ0sKyoX9y5o9E_V9cqnHilRPCHKJlG5i56mz6gjJzfehFScSusd5AC70ZtfbhSVO-BDWctb8JmWpn1-LyZWNXZgRLXlXkAtDg2nNLwaM0ZU-shalz8SgrLsmVVeM1imc6kH7hhBEMPbTlrTtOct6i1NmgRgg2"
 		},
 		"publish": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/publish",
+			"url": "https://customactivitysplit.herokuapp.com/activity/publish",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "CdgLeyu3lPl7EmwpnOAVqd-02GZlo3iyVCjItsS1Tk0uTBoEcGTU6AOfWPBs2sKkHrWtTnAYEik4oczjGsdn_GD2rOrD71BvMYQ0sKyoX9y5o9E_V9cqnHilRPCHKJlG5i56mz6gjJzfehFScSusd5AC70ZtfbhSVO-BDWctb8JmWpn1-LyZWNXZgRLXlXkAtDg2nNLwaM0ZU-shalz8SgrLsmVVeM1imc6kH7hhBEMPbTlrTtOct6i1NmgRgg2"
 		},
 		"validate": {
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/validate",
+			"url": "https://customactivitysplit.herokuapp.com/activity/validate",
 			"verb": "POST",
 			"body": "",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>"
+			"customerKey": "CdgLeyu3lPl7EmwpnOAVqd-02GZlo3iyVCjItsS1Tk0uTBoEcGTU6AOfWPBs2sKkHrWtTnAYEik4oczjGsdn_GD2rOrD71BvMYQ0sKyoX9y5o9E_V9cqnHilRPCHKJlG5i56mz6gjJzfehFScSusd5AC70ZtfbhSVO-BDWctb8JmWpn1-LyZWNXZgRLXlXkAtDg2nNLwaM0ZU-shalz8SgrLsmVVeM1imc6kH7hhBEMPbTlrTtOct6i1NmgRgg2"
 		}
 	},
 	"wizardSteps": [
@@ -43,18 +43,18 @@
 	"outcomes": [
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 1>"
+				"branchResult": "path1"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 1>"
+				"label": "path1"
 			}
 		},
 		{
 			"arguments": {
-				"branchResult": "<KEY FOR PATH 2>"
+				"branchResult": "path2"
 			},
 			"metaData": {
-				"label": "<LABEL FOR PATH 2>"
+				"label": "path2"
 			}
 		}
 	],
@@ -70,20 +70,20 @@
 		"execute": {
 			"inArguments": [],
 			"outArguments": [],
-			"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/activity/execute",
+			"url": "https://customactivitysplit.herokuapp.com/activity/execute",
 			"verb": "POST",
 			"body": "",
 			"header": "",
 			"format": "json",
 			"useJwt": true,
-			"customerKey": "<EXTERNAL KEY OF THE SALT KEY FOR THE JWT>",
+			"customerKey": "CdgLeyu3lPl7EmwpnOAVqd-02GZlo3iyVCjItsS1Tk0uTBoEcGTU6AOfWPBs2sKkHrWtTnAYEik4oczjGsdn_GD2rOrD71BvMYQ0sKyoX9y5o9E_V9cqnHilRPCHKJlG5i56mz6gjJzfehFScSusd5AC70ZtfbhSVO-BDWctb8JmWpn1-LyZWNXZgRLXlXkAtDg2nNLwaM0ZU-shalz8SgrLsmVVeM1imc6kH7hhBEMPbTlrTtOct6i1NmgRgg2",
 			"timeout": 90000,
 			"retryCount": 5,
 			"retryDelay": 100
 		}
 	},
 	"edit": {
-		"url": "https://<URL OF THE SERVER RUNNING THE BACKEND>/index.html",
+		"url": "https://customactivitysplit.herokuapp.com/index.html",
 		"height": 200,
 		"width": 500
 	}
